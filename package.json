@@ -1,0 +1,22 @@
+{
+  "name": "ags2geojson",
+  "version": "0.0.1",
+  "description": "Export ArcGIS online layers to geojson",
+  "main": "ags2geojson.js",
+  "bin": {
+    "ags2geojson": "./ags2geojson.js"
+  },
+  "keywords": [
+    "GIS"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "fs": "0.0.2",
+    "ogr2ogr": "^0.5.1",
+    "q": "^1.4.1",
+    "request": "^2.67.0",
+    "tmp": "0.0.28"
+  }
+}
